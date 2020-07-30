@@ -313,7 +313,7 @@ namespace ImportTODBFromYML.Models
 
                 //command.Parameters.AddRange(new SqlParameter[] { new SqlParameter { ParameterName = "userData" }, new SqlParameter { ParameterName = "product" }, new SqlParameter { ParameterName = "offer" } });
 
-#if DEBUG
+#if !DEBUG
                 connection.Open();
 
                 foreach (var offer in shop.offers)
