@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<Shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <local_delivery_cost>300</local_delivery_cost>
+  <name>Magazin</name>
+  <company>Magazin</company>
+  <url>http://www.magazin.ru/</url>
+  <currencies>
+    <Currency id="RUR" rate="1" plus="0" />
+  </currencies>
+  <categories>
+    <Category id="10" parentId="1">Принтеры</Category>
+    <Category id="100" parentId="10">Струйные принтеры</Category>
+    <Category id="101" parentId="10">Лазерные принтеры</Category>
+    <Category id="11" parentId="2">Фотоаппараты</Category>
+    <Category id="12" parentId="2">Объективы</Category>
+    <Category id="13" parentId="3">Детективы</Category>
+    <Category id="14" parentId="3">Художественная литература</Category>
+    <Category id="15" parentId="3">Учебная литература</Category>
+    <Category id="16" parentId="3">Детская литература</Category>
+    <Category id="17" parentId="4">Музыка</Category>
+    <Category id="18" parentId="4">Видеофильмы</Category>
+    <Category id="19" parentId="5">Туры</Category>
+    <Category id="20" parentId="5">Авиабилеты</Category>
+    <Category id="1" parentId="0">Оргтехника</Category>
+    <Category id="2" parentId="0">Фототехника</Category>
+    <Category id="3" parentId="0">Книги</Category>
+    <Category id="4" parentId="0">Музыка и видеофильмы</Category>
+    <Category id="5" parentId="0">Путешествия</Category>
+    <Category id="6" parentId="0">Билеты на мероприятия</Category>
+  </categories>
+  <offers>
+    <Offer type="vendor.model" id="12341" bid="13" cbid="0" available="true">
+      <product xsi:type="VendorModel">
+        <price>15000</price>
+        <url>http://magazin.ru/product_page.asp?pid=14344</url>
+        <picture>http://magazin.ru/img/device14344.jpg</picture>
+        <desctription>A4, 64Mb, 600x600 dpi, USB 2.0, 29стр/мин ч/б / 15стр/мин цв, лотки на 100л и 250л, плотность до 175г/м, до 60000 стр/месяц </desctription>
+        <currencyId>RUR</currencyId>
+        <categoryId>101</categoryId>
+        <delivery>true</delivery>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <local_delivery_cost>300</local_delivery_cost>
+        <typePrefix>Принтер</typePrefix>
+        <vendor>НP</vendor>
+        <vendorCode>Q7533A</vendorCode>
+        <model>Color LaserJet 3000</model>
+        <country_of_origin>Япония</country_of_origin>
+      </product>
+    </Offer>
+    <Offer type="book" id="12342" bid="17" cbid="0" available="true">
+      <product xsi:type="Book">
+        <price>100</price>
+        <url>http://magazin.ru/product_page.asp?pid=14345</url>
+        <picture>http://magazin.ru/img/book14345.jpg</picture>
+        <desctription>Все прекрасно в большом патриархальном семействе Руденко. Но — увы! — впечатление это обманчиво: каждого из многочисленных представителей семьи обуревают свои потаенные страсти и запретные желания.</desctription>
+        <currencyId>RUR</currencyId>
+        <categoryId>13</categoryId>
+        <delivery>true</delivery>
+        <series>А. Маринина - королева детектива</series>
+        <binding>70x90/32</binding>
+        <local_delivery_cost>300</local_delivery_cost>
+        <volume>2</volume>
+        <part>1</part>
+        <page_extent>288</page_extent>
+        <downloadable>false</downloadable>
+        <author>Александра Маринина</author>
+        <name>Все не так. В 2 томах. Том 1</name>
+        <publisher>ЭКСМО - Пресс</publisher>
+        <ISBN>978-5-699-23647-3</ISBN>
+        <language>rus</language>
+        <year>2009</year>
+      </product>
+    </Offer>
+    <Offer type="audiobook" id="12343" bid="17" cbid="0" available="true">
+      <product xsi:type="AudioBook">
+        <price>200</price>
+        <url>http://magazin.ru/product_page.asp?pid=14346</url>
+        <picture>http://magazin.ru/img/book14346.jpg</picture>
+        <desctription>Перу Владимира Кунина принадлежат десятки сценариев к кинофильмам, серия книг про КЫСЮ и многое, многое другое.</desctription>
+        <currencyId>RUR</currencyId>
+        <categoryId>14</categoryId>
+        <performed_by>Николай Фоменко</performed_by>
+        <performance_type>начитана</performance_type>
+        <storage>CD</storage>
+        <format>mp3</format>
+        <recording_length>45m23s</recording_length>
+        <downloadable>true</downloadable>
+        <author>Владимир Кунин</author>
+        <name>Иваnов и Rабинович, или Аj'гоу ту 'Хаjфа!</name>
+        <publisher>1С-Паблишинг, Союз</publisher>
+        <ISBN>978-5-9677-0757-5</ISBN>
+        <language>ru</language>
+        <year>2009</year>
+      </product>
+    </Offer>
+    <Offer type="artist.title" id="12344" bid="11" cbid="0" available="true">
+      <product xsi:type="ArtistTitle">
+        <price>450</price>
+        <url>http://magazin.ru/product_page.asp?pid=14347</url>
+        <picture>http://magazin.ru/img/cd14347.jpg</picture>
+        <desctription> Dark Side Of The Moon, поставивший мир на уши невиданным сочетанием звуков, — это всего-навсего девять треков, и даже не все они писались специально для альбома. Порывшись по сусекам, участники Pink Floyd мудро сделали новое из хорошо забытого старого — песен, которые почему-либо не пошли в дело или остались незаконченными. Одним из источников вдохновения стали саундтреки для кинофильмов, которые группа производила в больших количествах.</desctription>
+        <currencyId>RUR</currencyId>
+        <categoryId>17</categoryId>
+        <artist>Pink Floyd</artist>
+        <title>Dark Side Of The Moon, Platinum Disc</title>
+        <media>CD</media>
+        <year>1999</year>
+      </product>
+    </Offer>
+    <Offer type="artist.title" id="12345" bid="56" cbid="0" available="true">
+      <product xsi:type="ArtistTitle">
+        <price>400</price>
+        <url>http://magazin.ru/product_page.asp?pid=14348</url>
+        <picture>http://magazin.ru/img/dvd14348.jpg</picture>
+        <desctription>Гадкий утенок из провинциального городка покидает свое гнездо, и в компании своей подруги отправляется искать веселой жизни в большой и загадочный город. Фильм о мечтах и реальности, дружбе и юности молодой девушки, приключения которой повторяют судьбы Золушки и героини Джулии Робертс из ставшего классикой фильма Красотка...</desctription>
+        <currencyId>RUR</currencyId>
+        <categoryId>18</categoryId>
+        <title>Свадьба Мюриэл</title>
+        <media>DVD</media>
+        <year>1999</year>
+        <starring>Тони Колетт (Toni Collette), Рэйчел Грифитс (Rachel Griffiths)</starring>
+        <director>П Дж Хоген</director>
+        <originalName>Muriel's wedding</originalName>
+        <country>Австралия</country>
+      </product>
+    </Offer>
+    <Offer type="tour" id="12346" bid="71" cbid="0" available="true">
+      <product xsi:type="Tour">
+        <price>30000</price>
+        <url>http://magazin.ru/product_page.asp?pid=14349</url>
+        <picture>http://magazin.ru/img/travel14349.jpg</picture>
+        <desctription>Отдых в Египте.</desctription>
+        <currencyId>RUR</currencyId>
+        <categoryId>19</categoryId>
+        <delivery>false</delivery>
+        <local_delivery_cost>300</local_delivery_cost>
+        <worldRegion>Африка</worldRegion>
+        <country>Египет</country>
+        <region>Хургада</region>
+        <days>7</days>
+        <sdataTour>01/06/2014</sdataTour>
+        <edataTour>08/06/2014</edataTour>
+        <name>Hilton</name>
+        <hotel_stars>5*****</hotel_stars>
+        <room>SNG</room>
+        <meal>ALL</meal>
+        <included>авиаперелет, трансфер, проживание, питание, страховка</included>
+        <transport>Авиа</transport>
+      </product>
+    </Offer>
+    <Offer type="event-ticket" id="12347" bid="13" cbid="0" available="true">
+      <product xsi:type="event_ticket">
+        <price>5000</price>
+        <url>http://magazin.ru/product_page.asp?pid=14350</url>
+        <picture>http://magazin.ru/img/tickets14350.jpg</picture>
+        <desctription>Концерт Дмитрия Хворостовского и Национального филармонического оркестра России под управлением Владимира Спивакова.</desctription>
+        <currencyId>RUR</currencyId>
+        <categoryId>6</categoryId>
+        <delivery>true</delivery>
+        <local_delivery_cost>300</local_delivery_cost>
+        <name>Дмитрий Хворостовский и Национальный филармонический оркестр России. Дирижер — Владимир Спиваков.</name>
+        <place>Московский международный Дом музыки</place>
+        <plan plan="http://magazin.ru/img/mmdm_plan.jpg">
+          <Name>Большой зал</Name>
+        </plan>
+        <hall_part>Партер р. 1-5</hall_part>
+        <date>2014-12-31T19:00</date>
+        <is_premiere>0</is_premiere>
+        <is_kids>0</is_kids>
+      </product>
+    </Offer>
+  </offers>
+</Shop>

@@ -1,0 +1,22 @@
+USE [TestBase]
+GO
+
+/****** Object:  Table [dbo].[Offer]    Script Date: 30.07.2020 17:07:58 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Offer](
+	[ID] [int] NOT NULL,
+	[Bid] [int] NULL,
+	[Cbid] [int] NULL,
+	[Available] [bit] NULL,
+ CONSTRAINT [PK_Offer] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+

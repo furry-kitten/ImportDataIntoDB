@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportTODBFromYML", "ImportTODBFromYML.csproj", "{D09786A6-FB9C-49DD-9C68-6D9F87782C24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D09786A6-FB9C-49DD-9C68-6D9F87782C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09786A6-FB9C-49DD-9C68-6D9F87782C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09786A6-FB9C-49DD-9C68-6D9F87782C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09786A6-FB9C-49DD-9C68-6D9F87782C24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F2AE828-45FB-4700-9ABC-D183E84636BD}
+	EndGlobalSection
+EndGlobal

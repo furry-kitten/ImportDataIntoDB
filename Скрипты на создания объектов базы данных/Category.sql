@@ -1,0 +1,24 @@
+USE [TestBase]
+GO
+
+/****** Object:  Table [dbo].[Category]    Script Date: 30.07.2020 17:04:04 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Category](
+	[ID] [int] NOT NULL,
+	[ParentID] [int] NULL,
+	[Name] [varchar](30) NOT NULL,
+ CONSTRAINT [PK_Category] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Category] ADD  CONSTRAINT [DF_Category_ParentID]  DEFAULT ((0)) FOR [ParentID]
+GO
+

@@ -1,0 +1,25 @@
+﻿<Window x:Class="ImportTODBFromYML.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImportTODBFromYML"
+        xmlns:vm="clr-namespace:ImportTODBFromYML.ViewModels"
+        mc:Ignorable="d"
+        WindowStyle="ToolWindow"
+        Title="MainWindow" Height="100" Width="150">
+
+    <Window.DataContext>
+        <vm:MainVM/>
+    </Window.DataContext>
+    
+    <Grid>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Выберите файл"
+                    Margin="0 0 0 5"
+                    Command="{Binding SearchFile}"/>
+            <Button Content="Записать данные"
+                    Command="{Binding trydeserialize}"/>
+        </StackPanel>
+    </Grid>
+</Window>
