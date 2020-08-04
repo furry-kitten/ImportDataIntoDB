@@ -7,7 +7,7 @@
         xmlns:vm="clr-namespace:ImportTODBFromYML.ViewModels"
         mc:Ignorable="d"
         WindowStyle="ToolWindow"
-        Title="MainWindow" Height="100" Width="150">
+        Title="MainWindow" Height="100" Width="300">
 
     <Window.DataContext>
         <vm:MainVM/>
@@ -15,10 +15,18 @@
     
     <Grid>
         <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Button Content="Выберите файл"
-                    Margin="0 0 0 5"
-                    Command="{Binding SearchFile}"/>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 5">
+                <TextBox MinWidth="200" MaxWidth="230"
+                         Margin="0 0 5 0"
+                         ToolTip="{Binding FilePath, StringFormat=Путь {0}}"
+                         Text="{Binding FilePath}"/>
+                <Button Content="Обзор"
+                        Padding="5 2"
+                        Command="{Binding SearchFile}"/>
+            </StackPanel>
+            
             <Button Content="Записать данные"
+                    Padding="5 2"
                     Command="{Binding trydeserialize}"/>
         </StackPanel>
     </Grid>

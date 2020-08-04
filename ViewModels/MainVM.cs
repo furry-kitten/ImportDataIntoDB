@@ -25,6 +25,12 @@ namespace ImportTODBFromYML.ViewModels
     {
         private string path = string.Empty;
 
+        public string FilePath
+        {
+            get => path;
+            set { path = value; OnPropertyChanged(); }
+        }
+
         public ICommand trydeserialize => new DelegateCommand(() =>
         {
             var allCategories = new List<Category>();
@@ -94,6 +100,7 @@ namespace ImportTODBFromYML.ViewModels
             if(fileDialog.ShowDialog() == DialogResult.OK)
             {
                 path = fileDialog.FileName;
+                OnPropertyChanged("FilePath");
             }
         });
 
